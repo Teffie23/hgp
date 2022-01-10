@@ -1,0 +1,52 @@
+body {
+  background: #8b00ff;
+  color: #ff9218;
+
+}
+aside{
+   float: left;
+   background: #ff9218;
+   width: 20%;
+   padding: 2.5%;
+   height: 35vh;
+   color: #181818;
+   border-right: 5px solid #0bda51;
+}
+aside ul {list-style: none}
+aside ul li {
+   color: #fff;
+   display: block;
+   margin-top: 10px;
+   transition: all .6s ease;
+}
+aside li a {
+   color:  #8b00ff;
+}
+
+aside ul li:hover,aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+aside li h2{
+   color:  #8b00ff;
+}
+aside li p{
+   color:  #8b00ff;
+}
+form p input {
+   background-color: #8b00ff;
+   color: #ff9218;
+}
+form p select{
+   background-color: #8b00ff;
+   color: #ff9218;
+}
+form button{
+   background-color: #991199;
+   color: #ff9218;
+}
+form p option{
+   background-color: #8b00ff;
+   color: #ff9218;
+}

@@ -1,0 +1,18 @@
+{% extends 'wallet/base.html' %}
+{% load static %}
+{% block content %}
+<link type="text/css" href="{% static 'css/styles.css' %}" rel="stylesheet" />
+<aside>
+<ul class="list-articles">
+  {% for p in posts %}
+  {% if user.username == p.slug.lower  %}
+  <li><h2>{{p.slug}}</h2>
+  <p>{{p.balance}} {{p.currency}}</p>
+  </li>
+  {% endif %}
+  {% endfor %}
+  <li class="last"><a  href="{% url 'up' %}">Перевести</a></li>
+  <li class="last"><a  href="{% url 'change' %}">Смена валюты</a></li>
+</ul>
+</aside>
+{% endblock %}
