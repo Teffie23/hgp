@@ -1,10 +1,11 @@
 from django.db import models
 from django.urls import reverse, reverse_lazy
+from autoslug import AutoSlugField
 class users(models.Model):
     title=models.CharField(max_length=255,verbose_name='Имя')
     balance=models.FloatField(verbose_name='Баланс')
     currency=models.CharField(max_length=3,verbose_name='Валюта')
-    slug = models.SlugField(max_length=255, unique=True, db_index=True, verbose_name='URL')
+    slug = AutoSlugField(max_length=255, unique=True, db_index=True, verbose_name='URL',populate_from='balance')
     data=models.DateTimeField(auto_now_add=True)
     currency=models.ForeignKey('Currency', on_delete=models.PROTECT,verbose_name='Валюта')
     def __str__(self):
