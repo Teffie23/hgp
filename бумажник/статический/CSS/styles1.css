@@ -1,0 +1,90 @@
+#header, .module caption {
+    background: #8b00ff;
+    color: #ff9218;
+}
+#main{
+    background: #8b00ff;
+}
+#user-tools strong a {
+   background: #8b00ff;
+   color: #ff9218;
+}
+
+#main h1 {
+    background: #8b00ff;
+    color: #ff9218;
+}
+#content-main  tr th {
+    background: #8b00ff;
+}
+#content-main  tr th a {
+    color: #ff9218;
+}
+#content-main tr td {
+    background: #8b00ff;
+}
+#content-main tr td a ul {
+    color: #ff9218;
+
+}
+#content-related, .module li a  {
+    background: #8b00ff;
+    color: #ff9218;
+}
+#content-related, .module li span {
+    background: #8b00ff;
+    color: #ff9218;
+}
+#recent-actions-module, .module h2 {
+ color: #ff9218;
+}
+#content-main form input{
+   background-color: #8b00ff;
+   color: #ff9218;
+}
+#content-main form  label  {
+   background-color: #8b00ff;
+    color: #ff9218;
+}
+#content-main form fieldset {
+background-color: #8b00ff;
+}
+#container div.breadcrumbs  {
+background: #8b00ff;
+color: #ff9218;
+}
+#container div.breadcrumbs a {
+background: #8b00ff;
+color: #ff9218;
+}
+#content-main div.submit-row {
+   background-color: #8b00ff;
+   color: #ff9218;
+}
+#nav-sidebar table tbody tr th {
+  background-color: #8b00ff;
+   color: #ff9218;
+}
+#nav-sidebar table tbody tr  a {
+  background-color: #8b00ff;
+   color: #ff9218;
+}
+#nav-sidebar table tbody tr  td {
+  background-color: #8b00ff;
+   color: #ff9218;
+}
+#nav-sidebar{
+background-color: #8b00ff;
+}
+#container .toggle-nav-sidebar{
+background-color: #8b00ff;
+color: #ff9218;
+}
+#main content form input {
+background-color: #8b00ff;
+color: #ff9218;
+}
+#changelist changelist-form .paginator  {
+background: #8b00ff;
+color: #ff9218;
+}
